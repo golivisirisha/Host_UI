@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/app.component.css"],
+  "sourcesContent": [".layout {\r\n  display: flex;\r\n  flex-direction: column;\r\n  height: 100vh;\r\n}\r\n\r\n.sidebar {\r\n  width: 150px;\r\n  background: #343a40;\r\n  color: white;\r\n  padding-top: 1rem;\r\n  height: 100vh;\r\n}\r\n\r\n.sidebar .nav-link {\r\n  color: white;\r\n  padding: 10px 15px;\r\n}\r\n\r\n.sidebar .nav-link.active {\r\n  background: #007bff;\r\n}\r\n\r\n.content {\r\n  flex: 1;\r\n  padding: 40px;\r\n  background: #f8f9fa;\r\n  height: 100vh;\r\n  overflow-y: auto;\r\n  margin-left: 250px; /* Adjust this value to match your sidebar width */\r\n}\r\n\r\n.profile-image {\r\n  width: 40px;\r\n  height: 40px;\r\n  border-radius: 50%;\r\n  cursor: pointer;\r\n}\r\n"],
+  "mappings": ";AAAA,CAAC;AACC,WAAS;AACT,kBAAgB;AAChB,UAAQ;AACV;AAEA,CAAC;AACC,SAAO;AACP,cAAY;AACZ,SAAO;AACP,eAAa;AACb,UAAQ;AACV;AAEA,CARC,QAQQ,CAAC;AACR,SAAO;AACP,WAAS,KAAK;AAChB;AAEA,CAbC,QAaQ,CALC,QAKQ,CAAC;AACjB,cAAY;AACd;AAEA,CAAC;AACC,QAAM;AACN,WAAS;AACT,cAAY;AACZ,UAAQ;AACR,cAAY;AACZ,eAAa;AACf;AAEA,CAAC;AACC,SAAO;AACP,UAAQ;AACR,iBAAe;AACf,UAAQ;AACV;",
+  "names": []
+}

@@ -1,0 +1,38 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 150px;
+  background: #343a40;
+  color: white;
+  padding-top: 1rem;
+  height: 100vh;
+}
+
+.sidebar .nav-link {
+  color: white;
+  padding: 10px 15px;
+}
+
+.sidebar .nav-link.active {
+  background: #007bff;
+}
+
+.content {
+  flex: 1;
+  padding: 40px;
+  background: #f8f9fa;
+  height: 100vh;
+  overflow-y: auto;
+  margin-left: 250px; /* Adjust this value to match your sidebar width */
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
